@@ -1,5 +1,6 @@
 package com.mytel.producerconsumerpattern.controllers;
 
+import com.mytel.producerconsumerpattern.entity.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,5 +20,10 @@ public class TestController {
     public void sendStringList(@RequestBody List<String> strings){
         //put to queue
         producer.putToQueue(strings);
+    }
+
+    @PostMapping("/message")
+    public String sendMessage(@RequestBody Message message){
+        return producer.putToMessageQueue(message);
     }
 }

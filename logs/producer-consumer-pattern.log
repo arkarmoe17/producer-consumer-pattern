@@ -804,3 +804,35 @@ Consider defining a bean of type 'java.util.concurrent.BlockingQueue' in your co
 2020-09-09 13:51:10.726  INFO 4520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2020-09-09 13:51:10.817  INFO 4520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
 2020-09-09 13:51:10.820  INFO 4520 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : Started ProducerConsumerPatternApplication in 1.999 seconds (JVM running for 2.812)
+2020-09-09 14:18:11.328  INFO 13744 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : Starting ProducerConsumerPatternApplication on Arkarmoe with PID 13744 (E:\java_basics\producer-consumer-pattern\producer-consumer-pattern\target\classes started by arkarmoe in E:\java_basics\producer-consumer-pattern\producer-consumer-pattern)
+2020-09-09 14:18:11.331  INFO 13744 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : No active profile set, falling back to default profiles: default
+2020-09-09 14:18:11.389  INFO 13744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-09 14:18:11.389  INFO 13744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-09 14:18:12.409  INFO 13744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-09-09 14:18:12.419  INFO 13744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-09 14:18:12.420  INFO 13744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-09-09 14:18:12.529  INFO 13744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-09 14:18:12.529  INFO 13744 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1140 ms
+2020-09-09 14:18:12.672  INFO 13744 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 14:18:12.791  INFO 13744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-09 14:18:12.882  INFO 13744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-09-09 14:18:12.885  INFO 13744 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : Started ProducerConsumerPatternApplication in 2.131 seconds (JVM running for 2.91)
+2020-09-09 14:18:19.177  INFO 13744 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-09 14:18:19.178  INFO 13744 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-09 14:18:19.182  INFO 13744 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-09-09 14:22:49.985  INFO 7288 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : Starting ProducerConsumerPatternApplication on Arkarmoe with PID 7288 (E:\java_basics\producer-consumer-pattern\producer-consumer-pattern\target\classes started by arkarmoe in E:\java_basics\producer-consumer-pattern\producer-consumer-pattern)
+2020-09-09 14:22:49.988  INFO 7288 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : No active profile set, falling back to default profiles: default
+2020-09-09 14:22:50.032  INFO 7288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-09 14:22:50.032  INFO 7288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-09 14:22:51.430  INFO 7288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-09-09 14:22:51.438  INFO 7288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-09 14:22:51.438  INFO 7288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-09-09 14:22:51.553  INFO 7288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-09 14:22:51.553  INFO 7288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1520 ms
+2020-09-09 14:22:51.738  INFO 7288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 14:22:51.871  INFO 7288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-09 14:22:51.963  INFO 7288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-09-09 14:22:51.967  INFO 7288 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : Started ProducerConsumerPatternApplication in 2.523 seconds (JVM running for 3.328)
+2020-09-09 14:23:38.440  INFO 7288 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-09 14:23:38.440  INFO 7288 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-09 14:23:38.446  INFO 7288 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms

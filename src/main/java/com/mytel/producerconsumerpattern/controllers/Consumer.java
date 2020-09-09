@@ -1,14 +1,14 @@
 package com.mytel.producerconsumerpattern.controllers;
 
-import org.springframework.stereotype.Component;
+import com.mytel.producerconsumerpattern.entity.Message;
+import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.concurrent.BlockingQueue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-@Component
-public class Consumer /*implements Runnable*/ {
+@Service
+public class Consumer{
 
     public void consume(BlockingQueue<String> sharedQueue){
         try {
@@ -18,26 +18,21 @@ public class Consumer /*implements Runnable*/ {
             if(sharedQueue.isEmpty()){
                 System.out.println("now queue is empty.");
             }
-            /*for(String s :consumedList){
-                System.out.print(s);
-            }*/
-//            return consumedList;
         } catch (InterruptedException ex) {
             Logger.getLogger(Consumer.class.getName()).log(Level.SEVERE, null, ex);
         }
-//        return null;
     }
 
+    public void consumeMessage(BlockingQueue<Message> sharedQueue){
+        try {
 
-
-    /*@Override
-    public void run() {
-        while(true){
-            try {
-                System.out.println(" Consumed: "+ sharedQueue.take());
-            } catch (InterruptedException ex) {
-                Logger.getLogger(Consumer.class.getName()).log(Level.SEVERE, null, ex);
+            Message message = sharedQueue.take();
+            System.out.println("message :{}"+message.toString());
+            if(sharedQueue.isEmpty()){
+                System.out.println("now message queue is empty.");
             }
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Consumer.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }*/
+    }
 }
