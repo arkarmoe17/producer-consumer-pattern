@@ -1,0 +1,13 @@
+09-09-202010:30:24  INFO 8320 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : Starting ProducerConsumerPatternApplication on Arkarmoe with PID 8320 (E:\java_basics\producer-consumer-pattern\producer-consumer-pattern\target\classes started by arkarmoe in E:\java_basics\producer-consumer-pattern\producer-consumer-pattern)
+09-09-202010:30:24  INFO 8320 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : No active profile set, falling back to default profiles: default
+09-09-202010:30:24  INFO 8320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09-09-202010:30:24  INFO 8320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09-09-202010:30:25  INFO 8320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+09-09-202010:30:25  INFO 8320 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+09-09-202010:30:25  INFO 8320 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+09-09-202010:30:25  INFO 8320 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+09-09-202010:30:25  INFO 8320 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1127 ms
+09-09-202010:30:25  INFO 8320 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+09-09-202010:30:25  INFO 8320 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+09-09-202010:30:25  INFO 8320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+09-09-202010:30:25  INFO 8320 --- [restartedMain] c.m.p.ProducerConsumerPatternApplication : Started ProducerConsumerPatternApplication in 1.95 seconds (JVM running for 2.724)
